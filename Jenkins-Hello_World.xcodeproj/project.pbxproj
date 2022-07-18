@@ -13,27 +13,7 @@
 		6FDE6D962885A5E10082434F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FDE6D942885A5E10082434F /* Main.storyboard */; };
 		6FDE6D982885A5E20082434F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FDE6D972885A5E20082434F /* Assets.xcassets */; };
 		6FDE6D9B2885A5E20082434F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FDE6D992885A5E20082434F /* LaunchScreen.storyboard */; };
-		6FDE6DA62885A5E20082434F /* Jenkins_Hello_WorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDE6DA52885A5E20082434F /* Jenkins_Hello_WorldTests.swift */; };
-		6FDE6DB02885A5E20082434F /* Jenkins_Hello_WorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDE6DAF2885A5E20082434F /* Jenkins_Hello_WorldUITests.swift */; };
-		6FDE6DB22885A5E20082434F /* Jenkins_Hello_WorldUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDE6DB12885A5E20082434F /* Jenkins_Hello_WorldUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		6FDE6DA22885A5E20082434F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6FDE6D832885A5E00082434F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6FDE6D8A2885A5E10082434F;
-			remoteInfo = "Jenkins-Hello_World";
-		};
-		6FDE6DAC2885A5E20082434F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6FDE6D832885A5E00082434F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6FDE6D8A2885A5E10082434F;
-			remoteInfo = "Jenkins-Hello_World";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		6FDE6D8B2885A5E10082434F /* Jenkins-Hello_World.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jenkins-Hello_World.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,29 +24,10 @@
 		6FDE6D972885A5E20082434F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6FDE6D9A2885A5E20082434F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6FDE6D9C2885A5E20082434F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6FDE6DA12885A5E20082434F /* Jenkins-Hello_WorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jenkins-Hello_WorldTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6FDE6DA52885A5E20082434F /* Jenkins_Hello_WorldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jenkins_Hello_WorldTests.swift; sourceTree = "<group>"; };
-		6FDE6DAB2885A5E20082434F /* Jenkins-Hello_WorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jenkins-Hello_WorldUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6FDE6DAF2885A5E20082434F /* Jenkins_Hello_WorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jenkins_Hello_WorldUITests.swift; sourceTree = "<group>"; };
-		6FDE6DB12885A5E20082434F /* Jenkins_Hello_WorldUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jenkins_Hello_WorldUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		6FDE6D882885A5E10082434F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6FDE6D9E2885A5E20082434F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6FDE6DA82885A5E20082434F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -80,8 +41,6 @@
 			isa = PBXGroup;
 			children = (
 				6FDE6D8D2885A5E10082434F /* Jenkins-Hello_World */,
-				6FDE6DA42885A5E20082434F /* Jenkins-Hello_WorldTests */,
-				6FDE6DAE2885A5E20082434F /* Jenkins-Hello_WorldUITests */,
 				6FDE6D8C2885A5E10082434F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,8 +49,6 @@
 			isa = PBXGroup;
 			children = (
 				6FDE6D8B2885A5E10082434F /* Jenkins-Hello_World.app */,
-				6FDE6DA12885A5E20082434F /* Jenkins-Hello_WorldTests.xctest */,
-				6FDE6DAB2885A5E20082434F /* Jenkins-Hello_WorldUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,23 +65,6 @@
 				6FDE6D9C2885A5E20082434F /* Info.plist */,
 			);
 			path = "Jenkins-Hello_World";
-			sourceTree = "<group>";
-		};
-		6FDE6DA42885A5E20082434F /* Jenkins-Hello_WorldTests */ = {
-			isa = PBXGroup;
-			children = (
-				6FDE6DA52885A5E20082434F /* Jenkins_Hello_WorldTests.swift */,
-			);
-			path = "Jenkins-Hello_WorldTests";
-			sourceTree = "<group>";
-		};
-		6FDE6DAE2885A5E20082434F /* Jenkins-Hello_WorldUITests */ = {
-			isa = PBXGroup;
-			children = (
-				6FDE6DAF2885A5E20082434F /* Jenkins_Hello_WorldUITests.swift */,
-				6FDE6DB12885A5E20082434F /* Jenkins_Hello_WorldUITestsLaunchTests.swift */,
-			);
-			path = "Jenkins-Hello_WorldUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,42 +87,6 @@
 			productReference = 6FDE6D8B2885A5E10082434F /* Jenkins-Hello_World.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6FDE6DA02885A5E20082434F /* Jenkins-Hello_WorldTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6FDE6DB82885A5E20082434F /* Build configuration list for PBXNativeTarget "Jenkins-Hello_WorldTests" */;
-			buildPhases = (
-				6FDE6D9D2885A5E20082434F /* Sources */,
-				6FDE6D9E2885A5E20082434F /* Frameworks */,
-				6FDE6D9F2885A5E20082434F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6FDE6DA32885A5E20082434F /* PBXTargetDependency */,
-			);
-			name = "Jenkins-Hello_WorldTests";
-			productName = "Jenkins-Hello_WorldTests";
-			productReference = 6FDE6DA12885A5E20082434F /* Jenkins-Hello_WorldTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		6FDE6DAA2885A5E20082434F /* Jenkins-Hello_WorldUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6FDE6DBB2885A5E20082434F /* Build configuration list for PBXNativeTarget "Jenkins-Hello_WorldUITests" */;
-			buildPhases = (
-				6FDE6DA72885A5E20082434F /* Sources */,
-				6FDE6DA82885A5E20082434F /* Frameworks */,
-				6FDE6DA92885A5E20082434F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6FDE6DAD2885A5E20082434F /* PBXTargetDependency */,
-			);
-			name = "Jenkins-Hello_WorldUITests";
-			productName = "Jenkins-Hello_WorldUITests";
-			productReference = 6FDE6DAB2885A5E20082434F /* Jenkins-Hello_WorldUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -195,14 +99,6 @@
 				TargetAttributes = {
 					6FDE6D8A2885A5E10082434F = {
 						CreatedOnToolsVersion = 13.4.1;
-					};
-					6FDE6DA02885A5E20082434F = {
-						CreatedOnToolsVersion = 13.4.1;
-						TestTargetID = 6FDE6D8A2885A5E10082434F;
-					};
-					6FDE6DAA2885A5E20082434F = {
-						CreatedOnToolsVersion = 13.4.1;
-						TestTargetID = 6FDE6D8A2885A5E10082434F;
 					};
 				};
 			};
@@ -220,8 +116,6 @@
 			projectRoot = "";
 			targets = (
 				6FDE6D8A2885A5E10082434F /* Jenkins-Hello_World */,
-				6FDE6DA02885A5E20082434F /* Jenkins-Hello_WorldTests */,
-				6FDE6DAA2885A5E20082434F /* Jenkins-Hello_WorldUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -234,20 +128,6 @@
 				6FDE6D9B2885A5E20082434F /* LaunchScreen.storyboard in Resources */,
 				6FDE6D982885A5E20082434F /* Assets.xcassets in Resources */,
 				6FDE6D962885A5E10082434F /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6FDE6D9F2885A5E20082434F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6FDE6DA92885A5E20082434F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,37 +144,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6FDE6D9D2885A5E20082434F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6FDE6DA62885A5E20082434F /* Jenkins_Hello_WorldTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6FDE6DA72885A5E20082434F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6FDE6DB02885A5E20082434F /* Jenkins_Hello_WorldUITests.swift in Sources */,
-				6FDE6DB22885A5E20082434F /* Jenkins_Hello_WorldUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		6FDE6DA32885A5E20082434F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6FDE6D8A2885A5E10082434F /* Jenkins-Hello_World */;
-			targetProxy = 6FDE6DA22885A5E20082434F /* PBXContainerItemProxy */;
-		};
-		6FDE6DAD2885A5E20082434F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6FDE6D8A2885A5E10082434F /* Jenkins-Hello_World */;
-			targetProxy = 6FDE6DAC2885A5E20082434F /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		6FDE6D942885A5E10082434F /* Main.storyboard */ = {
@@ -454,7 +304,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "br.com.nano10.Jenkins-Hello-World";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -483,84 +333,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "br.com.nano10.Jenkins-Hello-World";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		6FDE6DB92885A5E20082434F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = K328B98U3F;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "br.com.nano10.Jenkins-Hello-WorldTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jenkins-Hello_World.app/Jenkins-Hello_World";
-			};
-			name = Debug;
-		};
-		6FDE6DBA2885A5E20082434F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = K328B98U3F;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "br.com.nano10.Jenkins-Hello-WorldTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jenkins-Hello_World.app/Jenkins-Hello_World";
-			};
-			name = Release;
-		};
-		6FDE6DBC2885A5E20082434F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = K328B98U3F;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "br.com.nano10.Jenkins-Hello-WorldUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Jenkins-Hello_World";
-			};
-			name = Debug;
-		};
-		6FDE6DBD2885A5E20082434F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = K328B98U3F;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "br.com.nano10.Jenkins-Hello-WorldUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Jenkins-Hello_World";
 			};
 			name = Release;
 		};
@@ -581,24 +355,6 @@
 			buildConfigurations = (
 				6FDE6DB62885A5E20082434F /* Debug */,
 				6FDE6DB72885A5E20082434F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6FDE6DB82885A5E20082434F /* Build configuration list for PBXNativeTarget "Jenkins-Hello_WorldTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6FDE6DB92885A5E20082434F /* Debug */,
-				6FDE6DBA2885A5E20082434F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6FDE6DBB2885A5E20082434F /* Build configuration list for PBXNativeTarget "Jenkins-Hello_WorldUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6FDE6DBC2885A5E20082434F /* Debug */,
-				6FDE6DBD2885A5E20082434F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
